@@ -8,7 +8,7 @@ public class ContactUs extends CommonAPI {
 
     @FindBy(xpath = "/html/body/div[1]/div[1]/div/div[1]/div[2]/a[1]")
         public static WebElement signInButtonContact;
-    @FindBy(xpath = "/html/body/div[1]/div[1]/div/div[1]/div[2]/a[1]")
+    @FindBy(xpath = "//*[@id=\"search-input\"]")
         public static WebElement searchBox;
     @FindBy(xpath = "//*[@id=\"phoneContactTrigger\"]")
         public static WebElement callUsPhoneNumber;
@@ -28,6 +28,7 @@ public class ContactUs extends CommonAPI {
     }
     public void searchBoxSendKeys(String key){
         searchBox.sendKeys(key);
+        driver.findElement(By.xpath("//*[@id=\"search-placeholder\"]/form/div/div/div[1]/button")).click();
     }
     public void callUsClick(){
         callUsPhoneNumber.click();
@@ -45,5 +46,7 @@ public class ContactUs extends CommonAPI {
     public void closeModalWindow(){
         driver.findElement(By.xpath("/html/body/div[3]/div/div/div/div/div/button")).click();
     }
+
+
 }
 
