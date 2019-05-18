@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -34,7 +35,7 @@ public class TestContactUs extends  CommonAPI {
             System.out.println("Failed to show InputError");
             getScreenshot(driver);
         }
-        quitDriver();
+
     }
 
 
@@ -60,7 +61,7 @@ public class TestContactUs extends  CommonAPI {
             System.out.println("Failed");
             getScreenshot(driver);
         }
-        quitDriver();
+
     }
 
     //-------------Test case 3. Sign in button with valid phone number  info---------------
@@ -85,7 +86,7 @@ public class TestContactUs extends  CommonAPI {
             System.out.println("Failed");
             getScreenshot(driver);
         }
-        quitDriver();
+
     }
 
     //-------------Test case 4. Sign in button with invalid password info---------------
@@ -110,7 +111,7 @@ public class TestContactUs extends  CommonAPI {
             System.out.println("Failed");
             getScreenshot(driver);
         }
-        quitDriver();
+
     }
 
 
@@ -131,12 +132,10 @@ public class TestContactUs extends  CommonAPI {
         else{
             System.out.println("Fail.Message was not shown up");
         }
-        quitDriver();
+
     }
 
     //-------------Test case 6. Checking if helpful article provided ---------------
-
-    @Test
 
     public void searchBoxNavToArticleYes(){
         contactUs.closeModalWindow();
@@ -151,6 +150,67 @@ public class TestContactUs extends  CommonAPI {
         driver.findElement(By.xpath("//*[@id=\"article-feedback-container\"]/div/form/button")).click();
 
         System.out.println("Success. Message was shown up. Message was sent");
-        quitDriver();
+
+    }
+
+    //-------------Test case 7. Checking if valid US phone number provided to call Customer Service , example 1-999-999-9999---------------
+
+
+    public void phoneNumberTestCase(){
+        contactUs.closeModalWindow();
+        contactUs.callUsClick();
+        sleepFor(1);
+
+        String phoneNumber = driver.findElement(By.xpath("//*[@id=\"phone-contact\"]/div/div/div/div[2]/div/div/a")).getText();
+
+        if(phoneNumber.length()==14 &&(!phoneNumber.contains("[a-aZ-Z]")) ){
+            System.out.println("Phone Number was provided : "+phoneNumber);
+        }
+        else{
+            System.out.println("Phone Number was not provided or is incorrect");
+        }
+
+    }
+
+    //-------------Test case 8. Checking if NetFlix provides email support to fix problems---------------
+
+
+    public void liveChatEmailSupport(){
+        contactUs.closeModalWindow();
+        contactUs.startLiveChatClick();
+        sleepFor(1);
+        driver.findElement(By.xpath("//*[@id=\"selfHelpPopover\"]/div[2]/ul[1]/li[2]/a")).click();
+        sleepFor(1);
+        driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/div[2]/div/label/input")).sendKeys("wormike96@gmail.com");
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/button")).click();
+        sleepFor(2);
+    }
+
+    //-------------Test case 9. Checking if languages switch works---------------
+
+
+    public void langSwitchTestCase() {
+        String expectedString = "Comunícate con el Servicio al Cliente";
+
+        contactUs.closeModalWindow();
+        contactUs.langSwicthClick();
+        sleepFor(1);
+
+
+        driver.findElement(By.xpath("//*[@id=\"lang-switcher\"]/option[5]")).click();
+        sleepFor(1);
+        Assert.assertEquals(expectedString, driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/div/div[1]/section[1]/h1")).getText());
+        System.out.println("Language was changed successfully");
+    }
+
+    //-------------Test case 10. Checking if languages switch works---------------
+
+    @Test
+
+    public void articleTestCase(){
+        contactUs.closeModalWindow();
+        contactUs.articleClick();
+        sleepFor(2);
     }
 }
