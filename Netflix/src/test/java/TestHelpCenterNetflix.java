@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -49,7 +50,7 @@ public class TestHelpCenterNetflix extends CommonAPI {
 
     }
 
-    //-------------Test case 3. Testiong out phone number features---------------
+    //-------------Test case 3. Testing out phone number features---------------
 
     public void phoneNumberTestCaseHelp() {
         helpcenter.closeModalWindowHelp();
@@ -65,7 +66,7 @@ public class TestHelpCenterNetflix extends CommonAPI {
         }
     }
 
-    //-------------Test case 4. Testiong out phone live char features---------------
+    //-------------Test case 4. Testing out phone live chat features---------------
 
 
     public void liveChatEmailSupportHelp(){
@@ -80,7 +81,7 @@ public class TestHelpCenterNetflix extends CommonAPI {
         sleepFor(2);
     }
 
-    //-------------Test case 5. Testiong out phone live char features---------------
+    //-------------Test case 5. Testing out Can`t Sign in Help support. Still needs some work---------------
 
     @Test
 
@@ -90,16 +91,80 @@ public class TestHelpCenterNetflix extends CommonAPI {
         sleepFor(2);
 
         driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/section/div/div/div[1]/p[2]/a")).click();
-        sleepFor(2);
+        sleepFor(5);
+        for (String winHadle : driver.getWindowHandles()){
+            driver.switchTo().window(winHadle);
+        }
+
         driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/section/div/div/div[2]/div/div[1]/div[1]/h2/a")).click();
-        driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/section/div/div/div[2]/div/div[1]/div[1]/h2/a")).click();
-        driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/section/div/div/div[2]/div/div[1]/div[1]/h2/a")).click();
+
         sleepFor(1);
         driver.findElement(By.xpath("/html/body/div[1]/div[3]/div[2]/section/div/div/div[2]/div/div[1]/div[2]/div/div/ol[1]/li[1]/p/a")).click();
+        sleepFor(5);
+        for (String winHadle : driver.getWindowHandles()){
+            driver.switchTo().window(winHadle);
+        }
         driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/div[2]/div/label/input")).sendKeys("wormike96@gmail.com");
         sleepFor(2);
         driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/button")).click();
         sleepFor(2);
 
     }
+
+    //-------------Test case 6. Testing out reset password---------------
+
+
+    public void resetPasswordTestCaseHelp(){
+        helpcenter.closeModalWindowHelp();
+        helpcenter.resetPasswordHelpClick();
+        sleepFor(4);
+
+
+        for (String winHadle : driver.getWindowHandles()){
+            driver.switchTo().window(winHadle);
+        }
+        sleepFor(5);
+        driver.findElement(By.xpath("//*[@id=\"id_userLoginId\"]")).sendKeys("wormike96@gmail.com");
+        driver.findElement(By.xpath("//*[@id=\"id_password\"]")).sendKeys("20062503");
+        driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/div[1]/form/button")).click();
+        sleepFor(2);
+    }
+
+    //-------------Test case 7. Testing out email update ---------------
+
+    public void updateEmailTestCaseHelp(){
+        String winBef = driver.getWindowHandle();
+
+        helpcenter.closeModalWindowHelp();
+        helpcenter.updateEmailHelp();
+        sleepFor(5);
+        for (String winHadle : driver.getWindowHandles()){
+            driver.switchTo().window(winHadle);
+        }
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"id_userLoginId\"]")).sendKeys("wormike96@gmail.com");
+        driver.findElement(By.id("id_password")).sendKeys("20062503");
+        driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/div[1]/form/button")).click();
+        sleepFor(2);
+    }
+
+    //-------------Test case 8. Testing out payment update--------------
+
+
+    public void updatePaymentTestCaseHelp(){
+        String winBef = driver.getWindowHandle();
+
+        helpcenter.closeModalWindowHelp();
+        helpcenter.updatePaymentMethodClick();
+        sleepFor(5);
+        for (String winHadle : driver.getWindowHandles()){
+            driver.switchTo().window(winHadle);
+        }
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"id_userLoginId\"]")).sendKeys("wormike96@gmail.com");
+        driver.findElement(By.id("id_password")).sendKeys("20062503");
+        driver.findElement(By.xpath("//*[@id=\"appMountPoint\"]/div/div[3]/div/div/div[1]/form/button")).click();
+        sleepFor(2);
+    }
+
 }
