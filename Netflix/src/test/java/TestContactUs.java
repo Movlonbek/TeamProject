@@ -206,7 +206,7 @@ public class TestContactUs extends  CommonAPI {
 
     //-------------Test case 10. Checking if languages switch works---------------
 
-    @Test
+
 
     public void articleTestCase(){
         contactUs.closeModalWindow();
