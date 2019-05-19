@@ -17,7 +17,7 @@ public class JobsPage extends CommonAPI {
     public static WebElement searchBoxInput;
 
 
-    //-------------List of click methods of all the WebElements of Contact Us page--------------
+    //-------------List of click methods of all the WebElements of Jobs page--------------
 
 
     public void teamsNavButtonClick(){

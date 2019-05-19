@@ -187,7 +187,6 @@ public class TestJobsNetflix extends CommonAPI {
 
     //-------------Test case 11. Testing out the video files on the jobs page  ---------------
 
-    @Test
 
     public void jobsPageVideoFileThird(){
         driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[1]/a/div")).click();

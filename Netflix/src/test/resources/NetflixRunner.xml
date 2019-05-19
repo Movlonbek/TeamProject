@@ -4,13 +4,13 @@
 <suite name="Netflix Automation Script " parallel="methods" thread-count="4">
 
     <parameter name="platform" value="windows"/>
-    <parameter name="url" value="https://jobs.netflix.com/"/>
+    <parameter name="url" value="https://help.netflix.com/en/"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="job-position" value="Data"/>
 
     <test name="Netflix Test">
         <classes>
-            <class name="TestJobsNetflix"/>
+            <class name="TestHelpCenterNetflix"/>
         </classes>
     </test>
 </suite>
