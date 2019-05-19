@@ -6,6 +6,7 @@
     <parameter name="platform" value="windows"/>
     <parameter name="url" value="https://jobs.netflix.com/"/>
     <parameter name="browser" value="chrome"/>
+    <parameter name="job-position" value="Data"/>
 
     <test name="Netflix Test">
         <classes>

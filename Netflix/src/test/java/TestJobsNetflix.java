@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestJobsNetflix extends CommonAPI {
@@ -89,7 +90,6 @@ public class TestJobsNetflix extends CommonAPI {
 
     //-------------Test case 5. Checking slide toggle menu at LifeAtNetflix---------------
 
-    @Test
 
     public void lifeAtNetflixSldeToggle(){
         jobsPage.lifeAtNetflixNavButtonClick();
@@ -104,5 +104,99 @@ public class TestJobsNetflix extends CommonAPI {
 
     }
 
+    //-------------Test case 6. Checking search button in the navigation menu --------------
 
+    public void searchNavButtonTestCaseCheckbox(){
+        jobsPage.searchNavButtonClick();
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section/div/div/div/div/div[2]/div[1]/ul/li[7]/label")).click();
+        sleepFor(2);
+        String pageSource = driver.getPageSource();
+        sleepFor(1);
+        if(pageSource.indexOf("Data")!=-1){
+            System.out.println("When checkbox is selected it looks for the positions provided by choice");
+        }
+        else{
+            System.out.println("It doesnt work");
+        }
+    }
+
+    //-------------Test case 7. Checking search button in the navigation menu ---------------
+
+
+    public void searchNavButtonTestCaseCheckboxFin(){
+        jobsPage.searchNavButtonClick();
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section/div/div/div/div/div[2]/div[1]/ul/li[3]/label")).click();
+        sleepFor(2);
+        String pageSource = driver.getPageSource();
+        sleepFor(1);
+        if(pageSource.indexOf("Financial")!=-1){
+            System.out.println("When checkbox is selected it looks for the positions provided by choice");
+        }
+        else{
+            System.out.println("It doesnt work");
+        }
+    }
+
+
+    //-------------Test case 8. Checking search input inbox  ---------------
+    @Parameters ({"job-position"})
+
+    public void searchBoxInputTestCasewithInvalid(String jobPosition){
+        jobsPage.searchBoxInputSendKeys(jobPosition);
+        sleepFor(2);
+        String numberOfJobs = driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section/div/div/div/div/div[1]/div[1]/p/em")).getText();
+        int num = Integer.valueOf(numberOfJobs);
+        sleepFor(1);
+        if(num>0){
+            System.out.println("Netflix has open position in "+jobPosition+" field");
+        }
+        else{
+            System.out.println("Netflix doesnt have open positions in "+jobPosition+" field");
+        }
+
+    }
+
+    //-------------Test case 9. Testing out the video files on the jobs page  ---------------
+
+
+    public void jobsPageVideoFile(){
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[3]/a/div")).click();
+        sleepFor(3);
+        if(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[3]/a/div")).isEnabled()){
+            System.out.println("Video is working great");
+        }
+        else{
+            System.out.println("Video file is not running");
+        }
+    }
+
+    //-------------Test case 10. Testing out the video files on the jobs page  ---------------
+
+    public void jobsPageVideoFileSec(){
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[2]/a/div")).click();
+        sleepFor(3);
+        if(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[2]/a/div")).isEnabled()){
+            System.out.println("Video is working great");
+        }
+        else{
+            System.out.println("Video file is not running");
+        }
+    }
+
+    //-------------Test case 11. Testing out the video files on the jobs page  ---------------
+
+    @Test
+
+    public void jobsPageVideoFileThird(){
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[1]/a/div")).click();
+        sleepFor(3);
+        if(driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[4]/div[2]/div/div/div[1]/a/div")).isEnabled()){
+            System.out.println("Video is working great");
+        }
+        else{
+            System.out.println("Video file is not running");
+        }
+    }
 }

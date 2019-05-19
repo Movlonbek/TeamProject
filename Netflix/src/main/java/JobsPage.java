@@ -34,5 +34,7 @@ public class JobsPage extends CommonAPI {
     }
     public void searchBoxInputSendKeys(String key){
         searchBoxInput.sendKeys(key);
+        sleepFor(2);
+        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/section[1]/div[1]/div/div/button")).click();
     }
 }
