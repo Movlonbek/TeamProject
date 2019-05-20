@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+import org.testng.util.Strings;
 import sun.rmi.rmic.iiop.Generator;
 
 import java.io.File;
@@ -19,11 +20,12 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
     public static WebDriver driver = null;
 
-    @Parameters({"platform", "url", "browser"})
+    @Parameters ({"platform", "url", "browser"})
+
     @BeforeMethod
     public static WebDriver setupDriver(String platform, String url, String browser) {
         if (platform.equalsIgnoreCase("mac") && browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "/Users/zann/IdeaProjects/Google/generic/src/main/resources/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "../Generic/src/main/resources/drivers/drivers/chromedriver");
         } else if (platform.equalsIgnoreCase("windows") && browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
         }
@@ -37,11 +39,11 @@ public class CommonAPI {
 
     public static void getScreenshot(WebDriver driver) {
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
-       Date date = new Date();
+        Date date = new Date();
         String name = df.format(date);
-       File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-           FileUtils.copyFile(file, new File("src/screenshots/" + name + ".png"));
+            FileUtils.copyFile(file, new File("src/screenshots/" + name + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -49,7 +51,7 @@ public class CommonAPI {
     }
 
     @AfterMethod
-    public void quitDriver() {
+    public void closeup() {
         driver.quit();
     }
 
@@ -60,6 +62,5 @@ public class CommonAPI {
 
         }
     }
-
 
 }
