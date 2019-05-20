@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Coinbase Automation Script " parallel="methods" thread-count="4">
+
+    <parameter name="platform" value="mac"/>
+    <parameter name="url" value="https://www.coinbase.com/"/>
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Coinbase Test">
+        <classes>
+            <class name="TestHomePage"/>
+        </classes>
+    </test>
+</suite>

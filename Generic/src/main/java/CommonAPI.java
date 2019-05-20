@@ -23,9 +23,9 @@ public class CommonAPI {
     @BeforeMethod
     public static WebDriver setupDriver(String platform, String url, String browser) {
         if (platform.equalsIgnoreCase("mac") && browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "/Users/zann/IdeaProjects/Google/generic/src/main/resources/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "/Users/tazzalam/eclipse-workspace/WeekDaysJava/TeamProject/Generic/src/main/resources/drivers/drivers/chromedriver");
         } else if (platform.equalsIgnoreCase("windows") && browser.equalsIgnoreCase("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "/Users/tazzalam/eclipse-workspace/WeekDaysJava/TeamProject/Generic/src/main/resources/drivers/drivers/chromedriver.exe");
         }
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
