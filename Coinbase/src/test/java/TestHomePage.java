@@ -76,6 +76,27 @@ public class TestHomePage extends CommonAPI {
         sleepFor(4);
     }
 
+    public void buyBitcoinCashTestCase(){
+        homepage.buyBitcoinCashClick();
+        sleepFor(4);
+    }
+
+    public void buyEthereumTestCase(){
+        homepage.buyEthereumClick();
+        sleepFor(4);
+    }
+
+    public void buyLitecoinTestCase(){
+        homepage.buyEthereumClick();
+        sleepFor(4);
+    }
+
+    public void buyXRPTestCase(){
+        homepage.buyXRPClick();
+        sleepFor(4);
+    }
+
+
 
 }
 

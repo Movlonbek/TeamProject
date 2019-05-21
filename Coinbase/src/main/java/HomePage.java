@@ -42,6 +42,19 @@ public class HomePage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[9]/div/div/div[3]/a[1]")
     public static WebElement buyBitcoin;
 
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[9]/div/div/div[3]/a[2]")
+    public static WebElement buyBitcoinCash;
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[9]/div/div/div[3]/a[3]")
+    public static WebElement buyEthereum;
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[9]/div/div/div[3]/a[4]")
+    public static WebElement buyLitecoin;
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[9]/div/div/div[3]/a[5]")
+    public static WebElement buyXRP;
+
+
 
 
     public void signInClick(){
@@ -88,4 +101,19 @@ public class HomePage extends CommonAPI {
         buyBitcoin.click();
     }
 
+    public void buyBitcoinCashClick(){
+        buyBitcoinCash.click();
+    }
+
+    public void buyEthereumClick(){
+        buyEthereum.click();
+    }
+
+    public void buyLitecoinClick(){
+        buyLitecoin.click();
+    }
+
+    public void buyXRPClick(){
+        buyXRP.click();
+    }
 }
