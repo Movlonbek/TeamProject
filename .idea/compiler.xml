@@ -9,9 +9,12 @@
         <module name="Generic" />
         <module name="generic" />
         <module name="amazon" />
-        <module name="ebay" />
         <module name="Amazon" />
+        <module name="Ebay" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ebay" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

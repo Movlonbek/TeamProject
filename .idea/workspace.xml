@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fef6560-dcd5-461e-87af-f389f506a9ee" name="Default Changelist" comment="" />
+    <list default="true" id="3fef6560-dcd5-461e-87af-f389f506a9ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/CommonAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/src/main/java/Homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/src/test/java/SigninEbay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/src/test/resources/Runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/classes/META-INF/Ebay.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/surefire-reports/2019-05-21T14-18-43_239-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/META-INF/Ebay.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/Runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/SigninEbay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/amazon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon Automation Script /Amazon Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon Automation Script /Amazon Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon Automation Script /Amazon Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Amazon Automation Script /Amazon Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/ebay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Ebay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/src/main/java/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/target/classes/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/target/classes/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <ignored path="$PROJECT_DIR$/ebay.com/target/" />
     <ignored path="$PROJECT_DIR$/ebay/target/" />
+    <ignored path="$PROJECT_DIR$/Ebay1/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -20,40 +58,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/Homepage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebay/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebay/src/main/java/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/SigninEbay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="427">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,13 +95,27 @@
       <list>
         <option value="$PROJECT_DIR$/Amazon/src/main/resources/Runner.xml" />
         <option value="$PROJECT_DIR$/Amazon/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/Setup.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/WbDriver/HomePage.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/ebay/pom.xml" />
+        <option value="$PROJECT_DIR$/ebay/src/test/resources/ebayRunner.xml" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/HomePage.java" />
+        <option value="$PROJECT_DIR$/ebay/pom.xml" />
+        <option value="$PROJECT_DIR$/ebay/src/main/java/EbayPackage/HomePage.java" />
+        <option value="$PROJECT_DIR$/Ebay1/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay1/src/main/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Ebay1/src/main/java/Homepage.java" />
+        <option value="$PROJECT_DIR$/Ebay1/src/test/java/TestHomepage.java" />
+        <option value="$PROJECT_DIR$/Ebay1/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/pom.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/TestHomepage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/SignInEbay.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/SignInebay.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/Runner.xml" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/Homepage.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/java/SigninEbay.java" />
       </list>
     </option>
   </component>
@@ -102,17 +133,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="webAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="webAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="webAutomation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -123,15 +143,13 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="634" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,65 +160,73 @@
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Ebay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TeamProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TeamProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/resources/drivers/drivers" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../BasicSeleniumTraining" />
@@ -209,6 +235,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Generic/src/main/resources/drivers/drivers" />
       <recent name="$PROJECT_DIR$/Generic/src/main/resources/drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ebay1/src/test" />
+      <recent name="$PROJECT_DIR$/ebay/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SigninEbay">
     <configuration name="HomePage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomePage" />
       <module name="ebay" />
@@ -231,8 +261,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SigninEbay" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SigninEbay" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay1/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay1/src/test/resources/Runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ebay" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Ebay/src/test/resources/Runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SigninEbay" />
+        <item itemvalue="TestNG./Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" />
+        <item itemvalue="TestNG./Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay1/src/test/resources/Runner.xml" />
         <item itemvalue="Application.HomePage" />
       </list>
     </recent_temporary>
@@ -250,10 +314,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 05m 54s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 08m 33s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 36m 46s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 37m 01s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 37m 32s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 37m 41s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 17h 38m 36s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 18h 18m 43s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_kayesmahmudshakil_eclipse-workspace_datastructure_TeamProject_Ebay_src_test_resources_Runner_xml - 2019.05.21 at 18h 30m 26s.xml">
+      <configuration name="/Users/kayesmahmudshakil/eclipse-workspace/datastructure/TeamProject/Ebay/src/test/resources/Runner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SigninEbay - 2019.05.21 at 18h 31m 20s.xml">
+      <configuration name="SigninEbay" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="442" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25282714" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29886913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,42 +359,32 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.3888889" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.37710437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32721713" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2996633" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32996634" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32828283" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32959184" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/resources/Runner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/newCL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/ebay.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -306,46 +393,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/Setup.java" />
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/WbDriver/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/resources/Runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/drivers/drivers/chromedriver">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/Setup.java" />
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/WbDriver/HomePage.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/EbayPackage/HomePage.java" />
+    <entry file="file://$PROJECT_DIR$/ebay/src/test/resources/ebayRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Ebay/Ebay.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Ebay/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/Runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/Homepage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/SigninEbay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -403,11 +513,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>amazon</last-edited>
+          <last-edited>ebay</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

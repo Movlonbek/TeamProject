@@ -11,7 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>amazon</module>
-        <module>ebay</module>
+        <module>Ebay</module>
     </modules>
     <dependencyManagement>
         <dependencies>
